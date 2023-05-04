@@ -7,7 +7,7 @@ services:
     volumes:
       - '.:/var/www/html'
     ports:
-      - 80:80
+      - 8001:80
   
   composer:
     build: './dockerFiles/composer'
